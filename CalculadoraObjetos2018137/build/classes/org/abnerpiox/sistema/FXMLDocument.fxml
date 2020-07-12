@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane blendMode="DARKEN" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="525.0" prefWidth="303.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.abnerpiox.sistema.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnMasMenos" layoutX="30.0" layoutY="454.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="+/-" />
+      <Button fx:id="btnSeis" layoutX="159.0" layoutY="323.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="6" />
+      <Button fx:id="btnMultiplicacion" layoutX="224.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="*" />
+      <Button fx:id="btnCero" layoutX="96.0" layoutY="454.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="0" />
+      <Button fx:id="btnDivision" layoutX="224.0" layoutY="198.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="/" />
+      <Button fx:id="btnOcho" layoutX="96.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="8" />
+      <Button fx:id="btnCinco" layoutX="96.0" layoutY="323.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="5" />
+      <Button fx:id="btnPorcentaje" layoutX="29.0" layoutY="135.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="\%" />
+      <Button fx:id="btnTres" layoutX="159.0" layoutY="390.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="3" />
+      <Button fx:id="btnSuma" layoutX="224.0" layoutY="390.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="+" />
+      <Button fx:id="btnResta" layoutX="224.0" layoutY="323.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="-" />
+      <Button fx:id="btnUnoX" layoutX="224.0" layoutY="135.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="1/x" />
+      <Button fx:id="btnSiete" layoutX="29.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="7" />
+      <Button fx:id="btnCuatro" layoutX="29.0" layoutY="323.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="4" />
+      <Button fx:id="btnUno" layoutX="29.0" layoutY="390.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="1" />
+      <Button fx:id="btnDos" layoutX="96.0" layoutY="390.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="2" />
+      <Button fx:id="btnPunto" layoutX="159.0" layoutY="454.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="." />
+      <Button fx:id="btnC" layoutX="91.0" layoutY="198.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="117.0" text="C" />
+      <Button fx:id="btnCE" layoutX="29.0" layoutY="198.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="CE" />
+      <Button fx:id="btnNueve" layoutX="159.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="9" />
+      <Button fx:id="btnIgual" layoutX="224.0" layoutY="454.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="=" />
+      <Button fx:id="btnCuadrado" layoutX="159.0" layoutY="135.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="x²" />
+      <Button fx:id="btnRaiz" layoutX="96.0" layoutY="135.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="√" />
+      <TextField fx:id="txtValores" alignment="CENTER_RIGHT" editable="false" layoutX="30.0" layoutY="53.0" prefHeight="66.0" prefWidth="245.0" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <effect>
+      <DropShadow color="#ab9a00" />
+   </effect>
+</AnchorPane>
